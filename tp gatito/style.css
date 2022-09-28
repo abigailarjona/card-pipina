@@ -1,0 +1,47 @@
+
+
+body {
+padding: 8%;
+margin: 0;
+background-image: url(fondo1.jpg);
+background-size: cover;
+}
+
+
+.izquierda{
+   background-image: url(pipi.png);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+#pantalla-dividida{
+    display: flex;
+    border-radius: 10%;
+    overflow: hidden;
+
+}
+
+.derecha{
+    background:#d6ce6f;
+    height: 100vh;
+    width: 50%;
+    opacity:0.6;
+    
+}
+
+h1{
+    font-size: 70px;
+    text-decoration: underline;
+    text-align: center;
+    color: black;
+    font-family: 'Merriweather', serif;        /**fangsong;**/
+}
+
+ul{
+    list-style: none;
+    font-size: 30px;
+    line-height: 2;
+    font-family: 'Merriweather', serif;
+
+}
